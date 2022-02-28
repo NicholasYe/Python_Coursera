@@ -1,5 +1,6 @@
 number = input("number:")
 number = float(number)
+
 if (number>0.0 and number<1.0):
     number = number
 else: 

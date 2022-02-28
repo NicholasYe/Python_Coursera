@@ -1,5 +1,6 @@
 large = None
 small = None
+
 while True:
     num = input("enter a number: ")
     if num == "done" : 
@@ -13,5 +14,6 @@ while True:
     except ValueError:
         print ("Invalid input")
         continue
+    
 print ("Maximum is", large)
 print ("Minimum is", small)
